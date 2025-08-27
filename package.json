@@ -1,0 +1,21 @@
+{
+  "name": "free-news-bot",
+  "version": "1.0.0",
+  "description": "Telegram news bot with free APIs - no keys required",
+  "main": "free-news-bot.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "production": "NODE_ENV=production node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "telegraf": "^4.12.2",
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
